@@ -1,3 +1,3 @@
 # DPRPRJ-projekt
  Martin Šimčík, Filip Mrkva (David Pospíšek), OAUH 2020/21,
- Demo applet na fyzikální pokusy (Kosecka rip)
+ Demo applet na fyzikální pokusy Giratina raid 14:16 POG
