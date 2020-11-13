@@ -7,5 +7,6 @@ Chemické riziko je typem pracovního rizika způsobený chemikáliemi na pracov
 
 [Odkaz na týdenní plány](https://github.com/martinsimcik/DPRPRJ-projekt/tree/main/plan)
 
-|  Martin | Filip  |  David |   |   |
-|---|---|---|---|---|
+|  Martin | Filip  |  David | 
+|:---:|:---:|:---:|
+|já na|to|seru|
