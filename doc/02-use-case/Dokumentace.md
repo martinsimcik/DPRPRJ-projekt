@@ -8,4 +8,5 @@ V Diagramu je zobrazen vztah mezi návštěvníky a obsahem stránky. V pravé �
 - Na úvodní neboli domovské stránce se budou nacházet obecné informace
 - Bude zde zobrazeno menu
 - Fotografie
+
 [Domovská stránka webu - Wireframe](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/01-ui-design/dom%C5%AF.png)
