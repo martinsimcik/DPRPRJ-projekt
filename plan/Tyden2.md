@@ -4,5 +4,5 @@
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
 | Dodělání githubu. | Vytvoření databáze. | Vytvoření projektu. |
 | Vytvoření menu.                                          | Vyhledání dodatečných informací k tvorbě webové stránky.           | Vyhledání informací o pokusech.                            |
-| Společné přepracování Diagramu v online nástroji.                                 | Vytvoření stránek.   | Společné přepracování Diagramu v online nástroji.                  |
+| Vytvoření stránek.                                 | Rozepsaní pokusů.   | Společné přepracování Diagramu v online nástroji.                  |
 
