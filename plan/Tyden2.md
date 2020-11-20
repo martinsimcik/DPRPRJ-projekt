@@ -2,7 +2,7 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Dodělání githubu. | Vytvoření databáze. | Vyhledání potřebných informací + vytvoření rozpisů pro první týden |
-| Doplnění zadání při společné konzultaci                                           | Doplnění zadání při společné konzultaci             | Doplnění zadání při společné konzultaci                            |
-| Společné přepracování Diagramu v online nástroji.                                 | Společné přepracování Diagramu v online nástroji.   | Společné přepracování Diagramu v online nástroji.                  |
+| Dodělání githubu. | Vytvoření databáze. | Vytvoření projektu. |
+| Vytvoření menu.                                          | Vyhledání dodatečných informací k tvorbě webové stránky.           | Vyhledání informací o pokusech.                            |
+| Společné přepracování Diagramu v online nástroji.                                 | Vytvoření stránek.   | Společné přepracování Diagramu v online nástroji.                  |
 
