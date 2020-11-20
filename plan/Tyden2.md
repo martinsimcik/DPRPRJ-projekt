@@ -2,7 +2,7 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Vytvoření workspace na Toggle a následné přidání všech členů, včetně vyučujícího. | Vytvoření databáze | Vyhledání potřebných informací + vytvoření rozpisů pro první týden |
+| Dodělání githubu. | Vytvoření databáze. | Vyhledání potřebných informací + vytvoření rozpisů pro první týden |
 | Doplnění zadání při společné konzultaci                                           | Doplnění zadání při společné konzultaci             | Doplnění zadání při společné konzultaci                            |
 | Společné přepracování Diagramu v online nástroji.                                 | Společné přepracování Diagramu v online nástroji.   | Společné přepracování Diagramu v online nástroji.                  |
 
