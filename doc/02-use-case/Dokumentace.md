@@ -4,6 +4,8 @@
 ### Popis Diagramu
 V Diagramu je zobrazen vztah mezi návštěvníky a obsahem stránky. V pravé části je zobrazeno rozdělení pro jednotlivé skupiny zájemců a to pro zájemce o chemické nebo fyzikální pokusy. Na lévé straně je zobrazen zájemce o všeobecné pokusy, v našem případě to jsou fyzikální a chemické pokusy. 
 
+[Diadgram vytvořený v programu](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/02-use-case/DiagramProjektu(vProgramu).png)
+
 ### Domů - Wireframe
 - Na úvodní neboli domovské stránce se budou nacházet základní informace a jak zacházet s rizikovými pokusy
 - Bude zde zobrazeno menu
