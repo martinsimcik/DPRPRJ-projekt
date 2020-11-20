@@ -17,4 +17,4 @@ V Diagramu je zobrazen vztah mezi návštěvníky a obsahem stránky. V pravé �
 - Bude zde zobrazeno menu
 - Fotografie
 
-[1.,2., strana webu - Wireframe](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/01-ui-design/1.%2C2.%20%20strana.png)
+[1.,2., stránka webu - Wireframe](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/01-ui-design/1.%2C2.%20%20strana.png)
