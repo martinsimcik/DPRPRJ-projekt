@@ -6,6 +6,8 @@ V Diagramu je zobrazen vztah mezi návštěvníky a obsahem stránky. V pravé �
 
 [Diadgram vytvořený v programu](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/02-use-case/DiagramProjektu(vProgramu).png)
 
+[Diagram](https://github.com/martinsimcik/DPRPRJ-projekt/blob/main/doc/02-use-case/Diagram.jpg)
+
 ### Domů - Wireframe
 - Na úvodní neboli domovské stránce se budou nacházet základní informace a jak zacházet s rizikovými pokusy
 - Bude zde zobrazeno menu
