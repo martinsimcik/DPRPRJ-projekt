@@ -2,7 +2,7 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Dodělání githubu. | Dodělání úvodní strany webu. | Vytvoření projektu. |
-| Vytvoření menu.                                          | Vypsání a dohledání informací o bezpečnosti na úvodní stranu.          | Vyhledání informací o pokusech.                            |
-| Vytvoření stránek.                                 | Vyladění vzhledu úvodní strany.   |                 |
+| Tvorba stránky fyzické pokusy.| Dodělání úvodní strany webu. | Vytvoření projektu. |
+| Hledání potřebných informací.                                      | Vypsání a dohledání informací o bezpečnosti na úvodní stranu.          | Vyhledání informací o pokusech.                            |
+| Grafická úprava stránky                           | Vyladění vzhledu úvodní strany.   |                 |
 
