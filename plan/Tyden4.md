@@ -2,7 +2,7 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Práce na webu | Vytvoření databáze. | Vytvoření projektu. |
+| Práce na webu | Zde je místo pro vaši reklamu. 775 885 665 | Vytvoření projektu. |
 |          | Vyhledání dodatečných informací k tvorbě webové stránky.           | Vyhledání informací o pokusech.                            |
 |                            | Rozepsaní pokusů.   |                 |
 
