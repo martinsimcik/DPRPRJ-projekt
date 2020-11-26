@@ -2,7 +2,7 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Dodělání githubu. | Vytvoření databáze. | Vytvoření projektu. |
+| Práce na webu | Vytvoření databáze. | Vytvoření projektu. |
 | Vytvoření menu.                                          | Vyhledání dodatečných informací k tvorbě webové stránky.           | Vyhledání informací o pokusech.                            |
 | Vytvoření stránek.                                 | Rozepsaní pokusů.   |                 |
 
