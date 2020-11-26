@@ -2,7 +2,6 @@
 
 | Martin                                                                            | Filip                                               | David                                                              |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|
-| Práce na webu | Vylepšení vzhledu stránek webu. | Vytvoření projektu. |
-|          | Zjišťování informací k přidávání pokusů          | Vyhledání informací o pokusech.                            |
-|                            |    |                 |
+| Práce na webu. | Vylepšení vzhledu stránek webu. | Vytvoření projektu. |
+| Doladění detailů a chyb.         | Zjišťování informací k přidávání pokusů          | Vyhledání informací o pokusech.                            |
 
