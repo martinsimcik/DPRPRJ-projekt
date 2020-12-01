@@ -8,6 +8,7 @@ class Pages extends CI_Controller {
                    
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
+              
 
 		$this->load->view('templates/header', $data);                
 		$this->load->view('pages/home', $data);  
@@ -50,18 +51,22 @@ class Pages extends CI_Controller {
             
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['chemie'] = $this->db->query('SELECT * FROM chemie')->result();
                 $this->load->view('templates/header', $data);                
 		$this->load->view('pages/chemie', $data);  
 		$this->load->view('templates/footer');
         }
-                public function chemieKlik()
+                public function chemieKlik($id)
         {
             
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['nazev'] = $this->db->query('SELECT * FROM chemie where id_chemie= '.$id)->result();
+                $data['chemie'] = $this->db->query('SELECT * FROM chemie where id_chemie=  '.$id)->result();
                 $this->load->view('templates/header', $data);                
 		$this->load->view('pages/chemieKlik', $data);  
 		$this->load->view('templates/footer');
         }
 }
+
 
