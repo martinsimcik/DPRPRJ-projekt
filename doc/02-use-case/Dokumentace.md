@@ -1,10 +1,9 @@
-## Odkaz na diagram vypracovaný v online nástroji
-[Diagram v online nástroji](https://app.creately.com/diagram/hpLQFq7kVno/edit)
+## Dokumentace a popis
 
 ### Popis Diagramu
 V Diagramu je zobrazen vztah mezi návštěvníky a obsahem stránky. V pravé části je zobrazeno rozdělení pro jednotlivé skupiny zájemců a to pro zájemce o chemické nebo fyzikální pokusy. Na lévé straně je zobrazen zájemce o všeobecné pokusy, v našem případě to jsou fyzikální a chemické pokusy. 
 
-[Diadgram vytvořený v programu](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/02-use-case/Diagram(vypracovan%C3%BD%20v%20programu).jpg)
+[Diagram vytvořený v programu](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/02-use-case/Diagram(vypracovan%C3%BD%20v%20programu).jpg)
 
 ### Domů - Wireframe
 - Na úvodní neboli domovské stránce se budou nacházet základní informace a jak zacházet s rizikovými pokusy
