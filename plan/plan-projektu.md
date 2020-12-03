@@ -4,6 +4,6 @@
 | Dodělání githubu. Vytvoření menu. Vytvoření stránek. | Vytvoření databáze. Vyhledání dodatečných informací k tvorbě webové stránky. Rozepsaní pokusů. | Vytvoření projektu. Vyhledání informací o pokusech.                         | 16. - 22.11.2020      |   
 |Tvorba stránky fyzické pokusy. Hledání potřebných informací. Grafická úprava stránky.  |Dodělání úvodní strany webu. Vypsání a dohledání informací o bezpečnosti na úvodní stranu. Vyladění vzhledu úvodní strany.  |  Vyhledání informací o pokusech. Grafická úprava stránky chemické pokusy|23. - 29.11.2020       | 
 |Práce na webu. Doladění detailů a chyb. Řešení issues na githubu + práce na projektu. Práce na stránce fyzikální pokusy. |Vylepšení vzhledu stránek webu. Zjišťování informací k přidávání pokusů. Řešení issues na githubu. Práce na úvodní straně projektu.  | Vyhledání informací o pokusech. Dopsání informací o administraci do githubu. Práce na stránce chemické pokusy. |  30. - 6.12.2020     |
-|  |  | | 7. - 13.12.2020    |
-|  |  | | 14. - 20.12.2020     |
-|  |  | |       |
+| Administrace. | Administrace. | Nahrání webové stránky na hosting.| 7. - 13.12.2020    |
+| Řešení grafické stránky webu. | Řešení grafické stránky webu. | Řešení grafické stránky webu. Nahrání webové stránky na hosting. | 14. - 20.12.2020     |
+
