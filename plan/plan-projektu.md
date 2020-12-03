@@ -1,5 +1,5 @@
 | Martin                                                                            | Filip                                               | David                                                              | Týden |   
 |-----------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------|-------|
 | Vytvoření workspace na Toggle a následné přidání všech členů, včetně vyučujícího. Doplnění zadání při společné konzultaci. Společné přepracování Diagramu v online nástroji.   | Zprovoznění markdownu na githubu + vytvoření složek.  Doplnění zadání při společné konzultace. Společné přepracování Diagramu v online nástroji.| Vyhledání potřebných informací + vytvoření rozpisů pro první týden. Doplnění zadání při společné konzultaci. Společné přepracování Diagramu v online nástroji. | 9. - 15.11.2020 |   
-|  | |                         |       |   
+| Dodělání githubu. Vytvoření menu. Vytvoření stránek. | Vytvoření databáze. Vyhledání dodatečných informací k tvorbě webové stránky. Rozepsaní pokusů. | Vytvoření projektu. Vyhledání informací o pokusech.                         | 16. - 22.11.2020      |   
 |  |  | |       |   
