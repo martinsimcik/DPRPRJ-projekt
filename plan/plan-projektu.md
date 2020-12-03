@@ -3,7 +3,7 @@
 | Vytvoření workspace na Toggle a následné přidání všech členů, včetně vyučujícího. Doplnění zadání při společné konzultaci. Společné přepracování Diagramu v online nástroji.   | Zprovoznění markdownu na githubu + vytvoření složek.  Doplnění zadání při společné konzultace. Společné přepracování Diagramu v online nástroji.| Vyhledání potřebných informací + vytvoření rozpisů pro první týden. Doplnění zadání při společné konzultaci. Společné přepracování Diagramu v online nástroji. | 9. - 15.11.2020 |   
 | Dodělání githubu. Vytvoření menu. Vytvoření stránek. | Vytvoření databáze. Vyhledání dodatečných informací k tvorbě webové stránky. Rozepsaní pokusů. | Vytvoření projektu. Vyhledání informací o pokusech.                         | 16. - 22.11.2020      |   
 |Tvorba stránky fyzické pokusy. Hledání potřebných informací. Grafická úprava stránky.  |Dodělání úvodní strany webu. Vypsání a dohledání informací o bezpečnosti na úvodní stranu. Vyladění vzhledu úvodní strany.  | Vytvoření projektu. Vyhledání informací o pokusech. Grafická úprava stránky chemické pokusy|23. - 29.11.2020       | 
-|Práce na webu. Doladění detailů a chyb.  |Vylepšení vzhledu stránek webu. Zjišťování informací k přidávání pokusů.    |Vytvoření projektu. Vyhledání informací o pokusech. |  30. - 6.12.2020     |
+|Práce na webu. Doladění detailů a chyb. Řešení issues na githubu + práce na projektu. |Vylepšení vzhledu stránek webu. Zjišťování informací k přidávání pokusů.    |Vytvoření projektu. Vyhledání informací o pokusech. |  30. - 6.12.2020     |
 |  |  | |      |
 |  |  | |       |
 |  |  | |       |
