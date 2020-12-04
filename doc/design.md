@@ -1,4 +1,4 @@
-## Návrhová rozhodnutí při tvrobě webu
+## Návrhová rozhodnutí při tvorbě webu
 Programovací jazyk: Použili jsme PHP, protože s ním umíme pracovat.
 
 Databáze: Zvolili jsme databázi MySQL
