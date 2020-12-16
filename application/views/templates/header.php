@@ -18,12 +18,17 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
 <style>
-
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 </style>
     </head>
     
     <body>
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark purple lighten-1 ">
+<nav style ="background:#E07A5F"class="mb-1 navbar navbar-expand-lg  lighten-1">
 
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarColor01">

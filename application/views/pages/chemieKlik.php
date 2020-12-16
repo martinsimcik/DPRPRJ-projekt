@@ -8,10 +8,15 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
+        <style>
+    body {
+     background-color: #F4F1DE;
+    }
+    </style>
  <div><br>&nbsp</div>
   <div><br>&nbsp</div>
 <div class="container">
-    <h1 class="text-center"><th scope="col"><b style="color: blue;"><?= $nazev[0]->nazev_pokusu ?></h1>
+    <h1 class="text-center"><?= $nazev[0]->nazev_pokusu ?></h1>
     <br>
 <style>
 table, th, td {

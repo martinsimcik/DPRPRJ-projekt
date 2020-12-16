@@ -9,18 +9,19 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
     body {
-     background-color: lightsalmon;
+     background-color: #F4F1DE;
     }
     </style>
     </head>
     <body>
+        
         <h2 class="text-center"><b><u>Zábavné pokusy na jednom místě</u></b></h2>
         <div class="container">
         <div class="row">
             <div class="col-12">
-                <h4><b><u><p style="color:darkblue;">Bezpečnost při zacházení s pokusy:</p></u></b></h4>
+                <h4><b><u><p style="color:black;">Bezpečnost při zacházení s pokusy:</p></u></b></h4>
                 <h5><b>
-                <p style="border:6px; border-style:outset dashed; border-color:#3366cc; padding: 20px 40px;">
+                <p style="border:6px; border-style:outset dashed; border-color:#E07A5F; padding: 20px 40px;">
                     • Při práci s libovolnými pokusy dbáme zvýšené opatrnosti a v případě potřeby dbáme také higieny.<br>
                     • V případě manipulace s objekty či předměty které mohou poškodit náš zrak nebo být obličeji nebezpečné použijeme <u>bezpečnostní brýle</u>.<br> 
                     • V případě že manipulujeme s chemikáliemi které mohou reagovat s dotykem a nebo nám ublížit použijeme <u>bezpečnostní rukavice</u>. Vždy po práci si řádně <u>umyjeme ruce</u> (při práci s nebezpečnými předměty nebo chemikáliemi si ruce můžeme mýt častěji i v průběhu je-li potřeba). Při práci s chemikáliemi je vždy <u>nutné dodržovat přesný postup</u> (změna postupu či práce může vést k nečekaným důsledkům, které mohou ohrozit naše zdraví).<br>

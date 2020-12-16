@@ -9,11 +9,21 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
+        <style>
+    body {
+     background-color: #F4F1DE;
+    }
+    </style>
     <div class="container">
         <div><br>&nbsp</div>
         <div><br>&nbsp</div>
     <h1 class="text-center">Fyzikální pokusy</h1>
     <br>
+    <style>
+table, th, td {
+  border: 2px solid black;
+}
+</style>
    <table class="table">
         <?php foreach ($fyzika as $fyzi) { ?>
             <tr>

@@ -2,10 +2,7 @@
 class Pages extends CI_Controller {
 
         public function view()
-    {
-
-
-                   
+        {               
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
               
@@ -67,6 +64,7 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/chemieKlik', $data);  
 		$this->load->view('templates/footer');
         }
+        
 }
 
 
