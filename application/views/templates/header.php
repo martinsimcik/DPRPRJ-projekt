@@ -47,9 +47,9 @@ li a {
     <?php endforeach; ?>
  
      
-     
+   
     </ul>
-      <form method="get" action="auth/login">
+      <form action="<?php echo base_url("auth/login"); ?>">
             <button type="submit">Přihlásit se</button>
       </form>
   </div>
