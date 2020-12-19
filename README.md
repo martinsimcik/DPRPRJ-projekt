@@ -12,6 +12,10 @@
  
 Chemické riziko je typem pracovního rizika způsobený chemikáliemi na pracovišti. Chemikálie na pracovišti může způsobit akutní nebo dlouhodobé škodlivé účinky na zdraví. Existuje mnoho typů nebezpečných chemikálií. Tato nebezpečí mohou způsobit fyzická nebo zdravotní rizika. V závislosti na chemikáliích se mohou rizika lišit, a proto je důležité znát a aplikovat osobní ochranné pracovní pomůcky.
 
+## Zdroj pokusů
+https://www.zsletohrad.cz/eu/fyzika/
+https://sites.google.com/site/dochepo/
+
 ## Ukázka UI
 [Odkaz na týdenní plán](https://github.com/martinsimcik/DPRPRJ-projekt/tree/main/plan)
 
