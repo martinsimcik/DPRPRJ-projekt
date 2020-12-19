@@ -1,2 +1,2 @@
 ## Odkaz na web
-http://fyzchempokusy.4fan.cz/pages/home
+http://chemfyzpokusy.4fan.cz/
