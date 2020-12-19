@@ -64,7 +64,7 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/chemieKlik', $data);  
 		$this->load->view('templates/footer');
         }
-        
+
 }
 
 

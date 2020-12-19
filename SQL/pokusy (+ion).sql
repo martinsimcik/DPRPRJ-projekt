@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Počítač: 127.0.0.1
--- Vytvořeno: Stř 16. pro 2020, 09:18
+-- Vytvořeno: Sob 19. pro 2020, 15:45
 -- Verze serveru: 10.4.11-MariaDB
--- Verze PHP: 7.4.6
+-- Verze PHP: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -156,7 +156,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `email`, `activation_selector`, `activation_code`, `forgotten_password_selector`, `forgotten_password_code`, `forgotten_password_time`, `remember_selector`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`) VALUES
-(1, '127.0.0.1', 'administrator', '$2y$08$200Z6ZZbp3RAEXoaWcMA6uJOFicwNZaqk4oDhqTUiFXFe63MG.Daa', 'admin@admin.com', NULL, '', NULL, NULL, NULL, NULL, NULL, 1268889823, 1268889823, 1, 'Admin', 'istrator', 'ADMIN', '0');
+(1, '127.0.0.1', 'administrator', '$2y$12$MDHagA5LtjoBUqAUzUGRjutS7ZIbh5ZVC9vcEzC63jfo8b3Xg8Zyu', 'admin@admin.com', NULL, '', NULL, NULL, NULL, NULL, NULL, 1268889823, 1608389080, 1, 'Admin', 'istrator', 'ADMIN', '0');
 
 -- --------------------------------------------------------
 
@@ -181,6 +181,18 @@ INSERT INTO `users_groups` (`id`, `user_id`, `group_id`) VALUES
 --
 -- Klíče pro exportované tabulky
 --
+
+--
+-- Klíče pro tabulku `chemie`
+--
+ALTER TABLE `chemie`
+  ADD PRIMARY KEY (`id_chemie`);
+
+--
+-- Klíče pro tabulku `fyzika`
+--
+ALTER TABLE `fyzika`
+  ADD PRIMARY KEY (`id_fyzika`);
 
 --
 -- Klíče pro tabulku `groups`
@@ -218,6 +230,18 @@ ALTER TABLE `users_groups`
 --
 
 --
+-- AUTO_INCREMENT pro tabulku `chemie`
+--
+ALTER TABLE `chemie`
+  MODIFY `id_chemie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT pro tabulku `fyzika`
+--
+ALTER TABLE `fyzika`
+  MODIFY `id_fyzika` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
 -- AUTO_INCREMENT pro tabulku `groups`
 --
 ALTER TABLE `groups`
@@ -227,7 +251,7 @@ ALTER TABLE `groups`
 -- AUTO_INCREMENT pro tabulku `login_attempts`
 --
 ALTER TABLE `login_attempts`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT pro tabulku `users`

@@ -81,7 +81,7 @@ class Auth extends CI_Controller
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-				redirect('/', 'refresh');
+				redirect('auth/formular', 'refresh');
 			}
 			else
 			{
@@ -125,7 +125,7 @@ class Auth extends CI_Controller
 		$this->ion_auth->logout();
 
 		// redirect them to the login page
-		redirect('auth/login', 'refresh');
+		redirect('pages/home', 'refresh');
 	}
 
 	/**
@@ -889,5 +889,16 @@ class Auth extends CI_Controller
 			return $view_html;
 		}
 	}
-
+        public function formular()
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/formular', $data);  
+		$this->load->view('templates/footer');
+        }
+        
+            }
+        
 }
