@@ -17,6 +17,9 @@ Email/uživatelské jméno: admin@admin.com
 
 Heslo: password
 
+## Odkaz na web
+http://chemfyzpokusy.4fan.cz/
+
 ## Zdroj pokusů
 https://www.zsletohrad.cz/eu/fyzika/
 
