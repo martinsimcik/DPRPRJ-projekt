@@ -64,7 +64,11 @@ class Auth extends CI_Controller
 	 */
 	public function login()
 	{
-		$this->data['title'] = $this->lang->line('login_heading');
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);
+		
+                $this->data['title'] = $this->lang->line('login_heading');
 
 		// validate form input
 		$this->form_validation->set_rules('identity', str_replace(':', '', $this->lang->line('login_identity_label')), 'required');
@@ -112,6 +116,7 @@ class Auth extends CI_Controller
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'login', $this->data);
 		}
+                $this->load->view('templates/footer', $data);
 	}
 
 	/**
@@ -894,7 +899,7 @@ class Auth extends CI_Controller
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/header', $data);                
+                $this->load->view('templates/headerform', $data);                
 		$this->load->view('pages/formular', $data);  
 		$this->load->view('templates/footer');
         }

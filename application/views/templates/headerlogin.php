@@ -8,7 +8,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        
 <!-- Bootstrap core CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
@@ -41,17 +40,14 @@ li a {
           
                 <?php foreach($polozky as $p): ?>
         <li class ="nav-item">
-        <a class="nav-link" href="<?php echo base_url('pages/')?><?=$p->polozka_menu?>"><?= $p->displej_nazev?><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('pages/')?><?=$p->polozka_menu?>"><?= $p->displej_nazev?><span class="sr-only h2">(current)</span></a>
         </li>            
 
     <?php endforeach; ?>
  
      
-   
+     
     </ul>
-      <form action="<?php echo base_url("auth/login"); ?>">
-            <button type="submit">Přihlásit se</button>
-      </form>
   </div>
 </nav>
     </body>

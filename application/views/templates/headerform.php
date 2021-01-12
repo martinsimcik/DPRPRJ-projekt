@@ -20,7 +20,7 @@
 <style>
 li a {
   display: block;
-  color: #F4F1DE;
+  color: #000;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -37,20 +37,10 @@ li a {
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-          
-                <?php foreach($polozky as $p): ?>
-        <li class ="nav-item">
-        <a class="nav-link" href="<?php echo base_url('pages/')?><?=$p->polozka_menu?>"><?= $p->displej_nazev?><span class="sr-only">(current)</span></a>
-        </li>            
-
-    <?php endforeach; ?>
- 
-     
    
-    </ul>
-      <form action="<?php echo base_url("auth/login"); ?>">
-            <button type="submit">Přihlásit se</button>
+    </ul> 
+      <form action="<?php echo base_url("auth/logout"); ?>">
+            <button type="submit">Odhlásit se</button>
       </form>
   </div>
 </nav>
