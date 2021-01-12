@@ -20,7 +20,7 @@
 <style>
 li a {
   display: block;
-  color: #000;
+  color: #F4F1DE;
   padding: 8px 16px;
   text-decoration: none;
 }
