@@ -15,6 +15,9 @@ Chemické riziko je typem pracovního rizika způsobený chemikáliemi na pracov
 # Zadání pro 2. pololetí
 Pro druhé pololetí by jsme chtěli do našeho projektu přidat možnost registrace, a následné změny pro obě možnosti přihlášení: pro admina možnost oddělávání pokusů (smazání z databáze) a přidávání pokusů a pro uživatele přidávání pokusů a možnost přidání komentářů k pokusům. (+ možnost pro admina odstranit komentáře). Jako další přidání obrázků k pokusům a také do pozadí jednotlivých stran pro zlepšení vzhledu webu. Následné rozdělení možnosti přidání pokusů na stranu s výběrem (buď fyzikální nebo chemické pokusy) kde by se po kliknutí na jednotlivý typ pokusů zobrazil formulář pro přidání daného typu pokusů (+ zvětšení políček pro text, při přidávání pokusů).
 
+## Ukázka UI
+
+
 ## Přihlášení pro admina
 Email/uživatelské jméno: admin@admin.com
 
