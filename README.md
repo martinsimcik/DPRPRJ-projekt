@@ -18,6 +18,9 @@ Pro druhé pololetí by jsme chtěli do našeho projektu přidat možnost regist
 ## Ukázka UI - 2. pololetí
 https://github.com/martinsimcik/Demo-applet-na-pokusy/tree/main/doc/2.pololeti/ui-design
 
+## Persony - 2. pololetí
+https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/Persony_2._pololet%C3%AD.md
+
 ## Přihlášení pro admina
 Email/uživatelské jméno: admin@admin.com
 
