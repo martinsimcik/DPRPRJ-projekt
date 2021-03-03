@@ -11,7 +11,10 @@ Cílem našeho projektu je vytvořit web, který bude sloužit jako pomůcka pro
 Webová stránka bude zaměřena pro lidi se zálibou v pokusech. Do cílové skupiny spadá každý, kdo má zájem již o zmíněné pokusy a rád si vyzkouší něco nového. Ať se jedná o školáka, co se chce dozvědět něco nového, či o dospělého člověka, který si chce něco zopakovat/naučit.
 
 # Zadání pro 2. pololetí
-Pro druhé pololetí by jsme chtěli do našeho projektu přidat možnost registrace, a následné změny pro obě možnosti přihlášení: pro admina možnost oddělávání pokusů (smazání z databáze) a přidávání pokusů a pro uživatele přidávání pokusů a možnost přidání komentářů k pokusům. (+ možnost pro admina odstranit komentáře). Jako další přidání obrázků k pokusům a také do pozadí jednotlivých stran pro zlepšení vzhledu webu. Následné rozdělení možnosti přidání pokusů na stranu s výběrem (buď fyzikální nebo chemické pokusy) kde by se po kliknutí na jednotlivý typ pokusů zobrazil formulář pro přidání daného typu pokusů (+ zvětšení políček pro text, při přidávání pokusů).
+V druhém pololetí přidáme do našeho projektu možnost registrace uživatelů. Uživatelé budou mít možnost přidávat pokusy a psát komentáře k jednotlivým pokusům. Adminovi bude přiděleno oprávnění odstranění pokusů a komentářů. K pokusům půjdou přikládat obrázky.
+
+V druhém pololetí opravíme/změníme v našem projektu: grafickou stránku webu + přidání obrázků do pozadí, pro oživení stránky, stránku pro přidávání pokusů – možnost výběru přidání pokusu do vybrané kategorie, zvětšení jednotlivých políček, předělání tabulek a jejich tvaru.
+
 
 ## Ukázka UI - 2. pololetí
 https://github.com/martinsimcik/Demo-applet-na-pokusy/tree/main/doc/2.pololeti/ui-design
