@@ -13,7 +13,7 @@ Webová stránka bude zaměřena pro lidi se zálibou v pokusech. Do cílové sk
 # Zadání pro 2. pololetí
 V druhém pololetí přidáme do našeho projektu možnost registrace uživatelů. Uživatelé budou mít možnost přidávat pokusy a psát komentáře k jednotlivým pokusům. Adminovi bude přiděleno oprávnění odstranění pokusů, komentářů a schvalování pokusů. K pokusům půjdou přikládat obrázky.
 
-V druhém pololetí opravíme/změníme v našem projektu: grafickou stránku webu + přidání obrázků do pozadí, pro oživení stránky, stránku pro přidávání pokusů – možnost výběru přidání pokusu do vybrané kategorie, zvětšení jednotlivých políček, předělání tabulek a jejich tvaru.
+V druhém pololetí opravíme/změníme v našem projektu: grafickou stránku webu + přidání obrázků do pozadí, pro oživení stránky, stránku pro přidávání pokusů – možnost výběru přidání pokusu do vybrané kategorie (fyzika, chemie, věk...), zvětšení jednotlivých políček, předělání tabulek a jejich tvaru.
 ## Uživatelské role
 Admin: přidávání pokusů, odstranění pokusů, odstranění komentářů, schvalování pokusů
 
