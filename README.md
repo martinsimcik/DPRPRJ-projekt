@@ -16,6 +16,7 @@ V druhém pololetí přidáme do našeho projektu možnost registrace uživatel�
 V druhém pololetí opravíme/změníme v našem projektu: grafickou stránku webu + přidání obrázků do pozadí, pro oživení stránky, stránku pro přidávání pokusů – možnost výběru přidání pokusu do vybrané kategorie, zvětšení jednotlivých políček, předělání tabulek a jejich tvaru.
 ## Uživatelské role
 Admin: přidávání pokusů, odstranění pokusů, odstranění komentářů, schvalování pokusů
+
 Uživatel: přidávání pokusů, přidávání komentářů
 
 ## Ukázka UI - 2. pololetí
