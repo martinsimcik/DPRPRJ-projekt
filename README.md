@@ -5,7 +5,7 @@ Děláme projekt do PRJ+DPR na základě demo appletu na chemické/fyzikální p
 ## Uživatelské role
 Admin: přidávání pokusů
 ## Cíl projektu
-Cílem našeho projektu je vytvořit web, který bude sloužit jako pomůcka pro lidi zajímající se o pokusy. Náš web by měl poskytnout informace a zajímavosti pokusech, které by měly být zároveň také poučné. Z hlediska bezpečnosti budou u pokusů připsány bezpečnostní informace, jak s nimi zacházet a čemu se vyhnout v případě problémů.
+Cílem našeho projektu je vytvořit web, který bude sloužit jako pomůcka pro lidi zajímající se o pokusy. Náš web by měl poskytnout informace a zajímavosti o pokusech, které by měly být zároveň také poučné. Z hlediska bezpečnosti budou u pokusů připsány bezpečnostní informace, jak s nimi zacházet a čemu se vyhnout v případě problémů.
 	
 ## Cílová skupina návstěvníků
  Webová stránka bude zaměřena pro lidi se zálibou v chemických nebo fyzikálních pokusech. Do cílové skupiny spadá každý, kdo má zájem již o zmíněné pokusy a rád si vyzkouší něco nového.
