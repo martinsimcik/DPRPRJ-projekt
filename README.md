@@ -1,7 +1,7 @@
 # Demo applet na chemické/fyzikální pokusy
  Martin Šimčík, Filip Mrkva, David Pospíšek, 3.B, skupina 2, OAUH 2020/21.
 ## Demo applet na chemické/fyzikální pokusy
-Děláme projekt do PRJ+DPR na základě demo appletu na chemické/fyzikální pokusy. Zpracujeme zadání úkolu stylem webové stránky, na které budou představeny různé pokusy a jejich vysvětlení + jak k nim může dojít. Přidávání pokusů v systému bude řešeno pomocí admina, kterého společně vytvoříme. Po rozkliknutí jednotlivého pokusu se zobrazí popis jednotlivých pokusů, jak s nimi zacházet, co je k nim potřeba, ale také bezpečnostní poučení, jaká rizika mohou nastat.
+Děláme projekt do PRJ+DPR na základě demo appletu na chemické/fyzikální pokusy. Zpracujeme zadání úkolu stylem webové stránky, na které budou představeny různé pokusy a jejich vysvětlení + jak k nim může dojít. Přidávání pokusů v systému bude řešeno pomocí admina, kterého společně vytvoříme. Po rozkliknutí jednotlivého pokusu se zobrazí popis jednotlivých pokusů, jak s nimi zacházet, co je k nim potřeba, ale také bezpečnostní poučení a jaká rizika mohou nastat.
  
 ## Cíl projektu
  Cílem našeho projektu je vytvořit web, který bude sloužit jako pomůcka pro lidi zajímající se o chemické/fyzikální pokusy. Náš web by měl poskytnout informace a zajímavosti o chemických a fyzikálních pokusech který by měly být zároveň také poučné. Z hlediska bezpečnosti budou u chemických i fyzikálních pokusů připsány bezpečnostní informace jak s nimi zacházet a čemu se vyhnout v případě problémů.
