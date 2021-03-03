@@ -19,6 +19,9 @@ Admin: přidávání pokusů, odstranění pokusů, odstranění komentářů, s
 
 Uživatel: přidávání pokusů, přidávání komentářů
 
+## Cíl projektu - 2. pololetí
+Cílem našeho projektu je dokončit webou stránku, která je zaměřena na pokusy. Kromě procházení pokusů, budou mít návštěvníci možnost si vytvořit uživatelský účet, přidávat pokusy a komentáře k pokusům.
+
 ## Ukázka UI - 2. pololetí
 https://github.com/martinsimcik/Demo-applet-na-pokusy/tree/main/doc/2.pololeti/ui-design
 
