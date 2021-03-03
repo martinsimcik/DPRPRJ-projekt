@@ -7,11 +7,8 @@ Admin: přidávání pokusů
 ## Cíl projektu
 Cílem našeho projektu je vytvořit web, který bude sloužit jako pomůcka pro lidi zajímající se o pokusy. Náš web by měl poskytnout informace a zajímavosti o pokusech, které by měly být zároveň také poučné. Z hlediska bezpečnosti budou u pokusů připsány bezpečnostní informace, jak s nimi zacházet a čemu se vyhnout v případě problémů.
 	
-## Cílová skupina návstěvníků
- Webová stránka bude zaměřena pro lidi se zálibou v chemických nebo fyzikálních pokusech. Do cílové skupiny spadá každý, kdo má zájem již o zmíněné pokusy a rád si vyzkouší něco nového.
-	
- 
-Chemické riziko je typem pracovního rizika způsobený chemikáliemi na pracovišti. Chemikálie na pracovišti může způsobit akutní nebo dlouhodobé škodlivé účinky na zdraví. Existuje mnoho typů nebezpečných chemikálií. Tato nebezpečí mohou způsobit fyzická nebo zdravotní rizika. V závislosti na chemikáliích se mohou rizika lišit, a proto je důležité znát a aplikovat osobní ochranné pracovní pomůcky.
+## Cílová skupina návštěvníků
+Webová stránka bude zaměřena pro lidi se zálibou v pokusech. Do cílové skupiny spadá každý, kdo má zájem již o zmíněné pokusy a rád si vyzkouší něco nového. Ať se jedná o školáka, co se chce dozvědět něco nového, či o dospělého člověka, který si chce něco zopakovat/naučit.
 
 # Zadání pro 2. pololetí
 Pro druhé pololetí by jsme chtěli do našeho projektu přidat možnost registrace, a následné změny pro obě možnosti přihlášení: pro admina možnost oddělávání pokusů (smazání z databáze) a přidávání pokusů a pro uživatele přidávání pokusů a možnost přidání komentářů k pokusům. (+ možnost pro admina odstranit komentáře). Jako další přidání obrázků k pokusům a také do pozadí jednotlivých stran pro zlepšení vzhledu webu. Následné rozdělení možnosti přidání pokusů na stranu s výběrem (buď fyzikální nebo chemické pokusy) kde by se po kliknutí na jednotlivý typ pokusů zobrazil formulář pro přidání daného typu pokusů (+ zvětšení políček pro text, při přidávání pokusů).
