@@ -13,6 +13,7 @@
 - U každého pokusu je napsán:
 - Název pokusu, pomůcky, postup, popis pokusu a jeho daná kategorie
 - U bezpečného pokusu na Vás nevyskočí žádné upozornění, zatímco u nebezpečného se Vám ukáže upozornění, které musíte potvrdit
+![](images/upozorneni.jng)
 
 [Bezpečný pokus](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/ui_design_3r_2pol/Bezpe%C4%8Dn%C3%BD%20pokus.jpg)
 [Nebezpečný pokus](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/ui_design_3r_2pol/Nebezpe%C4%8Dn%C3%BD%20pokus.jpg)
