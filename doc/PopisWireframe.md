@@ -6,7 +6,7 @@
 - Zobrazené menu
 - Základní informace o tom k čemu dané pokusy slouží
 - O nás
-- 3 pokusy střídající se na hlavní straně
+- Střídající se pokusy pomocí carouselu
 
 ![Domů](https://user-images.githubusercontent.com/72704307/111159050-f52fb600-8598-11eb-85e1-5e457bbb1c7f.jpg)
 
