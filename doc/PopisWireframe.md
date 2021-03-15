@@ -59,7 +59,7 @@
 ![Registrace](https://user-images.githubusercontent.com/72704307/111162827-cd425180-859c-11eb-8e31-7e0f763ba3c8.jpg)
 
 ### Příhlášení
-- Zde uživatel vyplní všechny kolonky a tím se přihlasí.
+- Zde uživatel vyplní všechny kolonky a tím se přihlásí.
 
 ![Přihlášení](https://user-images.githubusercontent.com/72704307/111163823-be0fd380-859d-11eb-8f2f-d3b033a87904.jpg)
 
