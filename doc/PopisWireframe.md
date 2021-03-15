@@ -20,5 +20,14 @@
 
 ![Nebezpečný pokus](https://user-images.githubusercontent.com/72704307/111159351-4d66b800-8599-11eb-95a1-d48417b4fd02.jpg)
 
+### Menu pokusů, když je přihlášen admin
+- Přídává pokusy
+- Odebírá pokusy
+- Odebírá nevhodné komentáře
+- Vyhledávání pokusů skrz jednotlivé kategorie
+
+![Pokusy admin](https://user-images.githubusercontent.com/72704307/111160064-088f5100-859a-11eb-87e1-485d75daf44e.jpg)
+
+
 
 
