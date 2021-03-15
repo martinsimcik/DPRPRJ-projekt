@@ -24,9 +24,17 @@
 - Přídává pokusy
 - Odebírá pokusy
 - Odebírá nevhodné komentáře
-- Vyhledávání pokusů skrz jednotlivé kategorie
+- Může vyhledávat pokusy skrz jednotlivé kategorie
 
 ![Pokusy admin](https://user-images.githubusercontent.com/72704307/111160064-088f5100-859a-11eb-87e1-485d75daf44e.jpg)
+
+### Menu pokusů, když je přihlášen uživatel
+- Přidává pokusy
+- Píše komentáře
+- Může vyhledávat pokusy skrz jednotlivé kategorie
+
+![Pokusy přihlášený uživatel](https://user-images.githubusercontent.com/72704307/111161093-0974b280-859b-11eb-91c3-0e9c706080ce.jpg)
+
 
 
 
