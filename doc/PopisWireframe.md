@@ -25,7 +25,8 @@
 - Odebírá pokusy
 - Odebírá nevhodné komentáře
 - Může vyhledávat pokusy skrz jednotlivé kategorie
--  Po kliknutí na daný pokus se mu zobrazí více informací
+- Po kliknutí na daný pokus se mu zobrazí více informací
+- Může si zobrazit ostatní komentář
 
 ![Pokusy admin](https://user-images.githubusercontent.com/72704307/111160064-088f5100-859a-11eb-87e1-485d75daf44e.jpg)
 
@@ -34,8 +35,18 @@
 - Píše komentáře
 - Může vyhledávat pokusy skrz jednotlivé kategorie
 - Po kliknutí na daný pokus se mu zobrazí více informací
+- Může si zobrazit ostatní komentáře
 
 ![Pokusy přihlášený uživatel](https://user-images.githubusercontent.com/72704307/111161093-0974b280-859b-11eb-91c3-0e9c706080ce.jpg)
+
+### Menu pokusů bez přihlášení
+- Může vyhledávat pokusy skrz jednotlivé kategorie
+- Po kliknutí na daný pokus se mu zobrazí více informací
+- Může si zobrazit ostatní komentáře
+
+![Pokusy nepřihlášený uživatel](https://user-images.githubusercontent.com/72704307/111161914-e8609180-859b-11eb-894f-5e603af04041.jpg)
+
+
 
 
 
