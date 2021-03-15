@@ -53,10 +53,16 @@
 ![Přidávání pokusů](https://user-images.githubusercontent.com/72704307/111162458-750b4f80-859c-11eb-92c9-9467a8838eee.jpg)
 
 ### Registrace
-- Pro registraci se musí vyplnit všechny kolonky
-- registrace je důležitá pokud chce uživatel psát komentáře nebo přídavat pokusy
+- Pro registraci se musí vyplnit všechny kolonky.
+- registrace je důležitá pokud chce uživatel psát komentáře nebo přídavat pokusy.
 
 ![Registrace](https://user-images.githubusercontent.com/72704307/111162827-cd425180-859c-11eb-8e31-7e0f763ba3c8.jpg)
+
+### Příhlášení
+- Zde uživatel vyplní všechny kolonky a tím se přihlasí.
+
+![Přihlášení](https://user-images.githubusercontent.com/72704307/111163823-be0fd380-859d-11eb-8f2f-d3b033a87904.jpg)
+
 
 
 
