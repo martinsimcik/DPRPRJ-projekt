@@ -16,4 +16,9 @@
 - Název pokusu, pomůcky, postup, popis pokusu a jeho daná kategorie
 - U bezpečného pokusu na Vás nevyskočí žádné upozornění, zatímco u nebezpečného se Vám ukáže upozornění, které musíte potvrdit
 
+![Bezpečný pokus](https://user-images.githubusercontent.com/72704307/111159332-48096d80-8599-11eb-95c1-077b868cfbd5.jpg)
+
+![Nebezpečný pokus](https://user-images.githubusercontent.com/72704307/111159351-4d66b800-8599-11eb-95a1-d48417b4fd02.jpg)
+
+
 
