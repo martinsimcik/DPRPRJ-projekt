@@ -1,3 +1,4 @@
+
 ## Popis wireframe
 
 ### Úvodní stránka
@@ -16,3 +17,4 @@
 
 [Bezpečný pokus](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/ui_design_3r_2pol/Bezpe%C4%8Dn%C3%BD%20pokus.jpg)
 [Nebezpečný pokus](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/ui_design_3r_2pol/Nebezpe%C4%8Dn%C3%BD%20pokus.jpg)
+![upozorneni](https://user-images.githubusercontent.com/72704307/111158858-d03b4300-8598-11eb-9c43-cd15e28c6b8f.jpg)
