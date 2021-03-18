@@ -23,7 +23,7 @@ Uživatel: přidávání pokusů, přidávání komentářů
 Cílem našeho projektu je dokončit webou stránku, která je zaměřena na pokusy. Kromě procházení pokusů, budou mít návštěvníci možnost si vytvořit uživatelský účet, přidávat pokusy a komentáře k pokusům.
 
 ## Ukázka UI - 2. pololetí
-[Wireframe + popis]https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/PopisWireframe.md
+[Wireframe + popis](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/PopisWireframe.md)
 
 ## Persony - 2. pololetí
 [Persony](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/Persony_2._pololet%C3%AD.md)
