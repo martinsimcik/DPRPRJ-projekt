@@ -11,33 +11,98 @@
     body {
      background-color: #F4F1DE;
     }
+    .fontIcon{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 15px;
+    }
+    .card {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
+    transition: 0.3s;
+    }
     </style>
     </head>
     <body>
         
-        <h2 class="text-center"><b><u>Zábavné pokusy na jednom místě</u></b></h2>
-        <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h4><b><u><p style="color:black;">Bezpečnost při zacházení s pokusy:</p></u></b></h4>
-                <h5><b>
-                <p style="border:6px; border-style:outset dashed; border-color:#E07A5F; padding: 20px 40px;">
-                    • Při práci s libovolnými pokusy dbáme zvýšené opatrnosti a v případě potřeby dbáme také hygieny.<br>
-                    • V případě manipulace s objekty či předměty které mohou poškodit náš zrak nebo být obličeji nebezpečné použijeme <u>bezpečnostní brýle</u>.<br> 
-                    • V případě že manipulujeme s chemikáliemi které mohou reagovat s dotykem a nebo nám ublížit použijeme <u>bezpečnostní rukavice</u>. Vždy po práci si řádně <u>umyjeme ruce</u> (při práci s nebezpečnými předměty nebo chemikáliemi si ruce můžeme mýt častěji i v průběhu je-li potřeba). Při práci s chemikáliemi je vždy <u>nutné dodržovat přesný postup</u> (změna postupu či práce může vést k nečekaným důsledkům, které mohou ohrozit naše zdraví).<br>
-                    • Z hlediska bezpečnosti lze tedy říct, že práce s fyzikálními pokusy je méně nebezpečná než práce s chemickými pokusy, avšak není důvod fyzikální pokusy podceňovat a nedodržovat určité bezpečnostní podmínky.<br>
-                    • Nejčastější chyby a nebezpečí nastává v případě, <u>že si lidé neuvědomují svůj přístup k pokusu</u> a mohou se i omylem dotkou věci pokožce nebezpečné nebo obecně nebezpečné a <u>nebo při nedodržování postupů</u>.<br>
-                    • V případě fyzikálních pokusů by při nedodržení podmínek zřejmě pokus jen nefungoval, ale v případě chemických pokusů by mohl následek chyby být větší a více nebezpečný. <u>Je tedy nutné mýt si pravidelně ruce a ve více nebezpečných případech použít bezpečnostní brýle, rukavice a nebo silnější oblečení</u>.<br>
-                    • Dbáme také na bezpečnost při práci například s ohněm, který bychom neměli zapalovat v blízkosti hořlavých předmětů a vůbec ne v blízkosti (vysoce) hořlavých látek! Oheň zapalujeme nejlépe venku a snažíme se ho mít pod kontrolou, v případě problémů je nutno oheň rychle uhasit, v případě velkých problémů zavolat záchranou složku hasiče.<br> 
-                </p>
-                </b></h5>
-            </div>
-        </div>
+        <h2 class="text-center"><b><u>Zábavné pokusy kolem nás</u></b></h2>
+        <center>
             <div class="row">
-                <div class="col-4">
+                <div class="col-2">
+                </div>
+                <div class="col-8">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+       <img src="<?php echo base_url('images/pokus1.jpg'); ?>" width="730" height="400" alt=""/>
+      <div class="carousel-caption">
+        <h3>nejaky_nazev</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo base_url('images/pokus2.jpg'); ?>" width="730" height="400" alt=""/>
+      <div class="carousel-caption">
+        <h3>nejaky_nazev</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo base_url('images/pokus3.jpg'); ?>" width="730" height="400" alt=""/>
+      <div class="carousel-caption">
+        <h3>nejaky_nazev</h3>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon fontIcon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon fontIcon"></span>
+  </a>
+</div>
+                </div>
+                <div class="col-2">
+                </div>
+                </div>
+        </center>
+     <div><br>&nbsp</div>
+            <div class="row">
+                <div class="col-2">
                     
                 </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body"><div class="text-center"><h2> O nás </h2></div><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            Phasellus faucibus molestie nisl. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.
+                            Integer tempor. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Vivamus ac 
+                            leo pretium faucibus. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Fusce 
+                            tellus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim 
+                            ipsum id lacus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede.</div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body"><div class="text-center"><h2> K čemu pokusy slouží </h2></div><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                            Phasellus faucibus molestie nisl. Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.
+                            Integer tempor. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Vivamus ac 
+                            leo pretium faucibus. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Fusce 
+                            tellus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim 
+                            ipsum id lacus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede.</div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    
+                </div>
+                <div><br>&nbsp</div>
             </div>
-        </div>
     </body>
 </html>

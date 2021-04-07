@@ -22,27 +22,29 @@ class Pages extends CI_Controller {
 		$this->load->view('templates/footer');
         }
         
-                public function fyzika()
+                public function pokusy()
         {
             
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $data['fyzika'] = $this->db->query('SELECT * FROM fyzika')->result();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
                 $this->load->view('templates/header', $data);                
-		$this->load->view('pages/fyzika', $data);  
+		$this->load->view('pages/pokusy', $data);  
 		$this->load->view('templates/footer');
         }
-                public function fyzikaKlik($id)
+               
+        public function pokusyKlik($id)
         {
             
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $data['nazev'] = $this->db->query('SELECT * FROM fyzika where id_fyzika= '.$id)->result();
-                $data['fyzika'] = $this->db->query('SELECT * FROM fyzika where id_fyzika=  '.$id)->result();
+                $data['nazev'] = $this->db->query('SELECT * FROM pokusy where id= '.$id)->result();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
                 $this->load->view('templates/header', $data);                
-		$this->load->view('pages/fyzikaKlik', $data);  
+		$this->load->view('pages/pokusyKlik', $data);  
 		$this->load->view('templates/footer');
         }
+        /*
                 public function chemie()
         {
             
@@ -64,7 +66,7 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/chemieKlik', $data);  
 		$this->load->view('templates/footer');
         }
+         * 
+         */
 
 }
-
-

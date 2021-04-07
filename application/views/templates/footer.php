@@ -2,6 +2,7 @@
  
 <div class="text-center">
 <em class="text">Martin Šimčík, Filip Mrkva, David Pospíšek 2020/21</em>
+<div><br>&nbsp</div>
 </div>
         </body>
 </html>
