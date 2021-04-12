@@ -29,7 +29,7 @@ class Pages extends CI_Controller {
                 $data['polozky'] = $this->pokusy_model->get_menu();
                 $data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
                 $this->load->view('templates/header', $data);                
-		$this->load->view('pages/pokusy', $data);  
+		$this->load->view('pages/pokusyAdmin', $data);  
 		$this->load->view('templates/footer');
         }
                
@@ -42,6 +42,36 @@ class Pages extends CI_Controller {
                 $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
                 $this->load->view('templates/header', $data);                
 		$this->load->view('pages/pokusyKlik', $data);  
+		$this->load->view('templates/footer');
+        }
+        public function formular()
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                //$data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/formular', $data);  
+		$this->load->view('templates/footer');
+        }
+        public function odebraniPokusu()
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                //$data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/odebraniPokusu', $data);  
+		$this->load->view('templates/footer');
+        }
+        public function odebraniKomentare()
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                //$data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/odebraniKomentare', $data);  
 		$this->load->view('templates/footer');
         }
         /*

@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Registrace</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
@@ -15,8 +15,10 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <style>
     body {
-     text-align: center;
+     
      background-color: #F4F1DE;
+    
+     text-align: center;
     }
     </style>
     </head>
@@ -53,11 +55,22 @@
           echo '</p>';
       }
       ?>
+
+      <p>
+            <?php echo lang('create_user_company_label', 'company');?> <br />
+            <?php echo form_input($company);?>
+      </p>
+
       <p>
             <?php echo lang('create_user_email_label', 'email');?> <br />
             <?php echo form_input($email);?>
       </p>
-      
+
+      <p>
+            <?php echo lang('create_user_phone_label', 'phone');?> <br />
+            <?php echo form_input($phone);?>
+      </p>
+
       <p>
             <?php echo lang('create_user_password_label', 'password');?> <br />
             <?php echo form_input($password);?>

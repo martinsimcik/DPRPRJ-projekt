@@ -110,7 +110,10 @@ table, th, td {
                 <div class="row">
                     <div class="col-12">
                         <button type="button" class="btn btn-default">
-                        <a class="nav-link text-dark" href="../auth/login">Pro přidání pokusu se prosím přihlaste</a> 
+                        <a class="nav-link text-dark" href="formular">Přidat pokus</a> 
+                        </button>
+                        <button type="button" class="btn btn-default">
+                            <a class="nav-link text-dark" href="odebraniPokusu">Odebrat pokus</a> 
                         </button>
                     </div>
                 </div>
@@ -123,8 +126,9 @@ table, th, td {
                             <div><br>&nbsp</div>
                             <b>(zde bude přidávání komentářů do databáze -> řádek pro jméno a větší pole pro text)</b> <br>
                             <div><br>&nbsp</div>
+                            <button class="btn btn-default text-dark" type="submit">Přidat komentář</button>
                             <button type="button" class="btn btn-default">
-                            <a class="nav-link text-dark" href="../auth/login">Pro přidání komentáře se prosím přihlaste</a>
+                            <a class="nav-link text-dark" href="odebraniKomentare">Odebrat komentář</a> 
                             </button>
                             <div><br>&nbsp</div>
                             <b>(zde bude výpis komentářu z databáze -> jméno a komentář)</b>

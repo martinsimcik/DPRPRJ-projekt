@@ -67,7 +67,7 @@ class Auth extends CI_Controller
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
                 $this->load->view('templates/headerlogin', $data);
-		
+                
                 $this->data['title'] = $this->lang->line('login_heading');
 
 		// validate form input
@@ -85,7 +85,7 @@ class Auth extends CI_Controller
 				//if the login is successful
 				//redirect them back to the home page
 				$this->session->set_flashdata('message', $this->ion_auth->messages());
-				redirect('auth/formular', 'refresh');
+				redirect('auth/pokusyAdmin', 'refresh');
 			}
 			else
 			{
@@ -116,7 +116,8 @@ class Auth extends CI_Controller
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'login', $this->data);
 		}
-                $this->load->view('templates/footer', $data);
+                
+                        $this->load->view('templates/footer', $data);
 	}
 
 	/**
@@ -899,16 +900,27 @@ class Auth extends CI_Controller
 			return $view_html;
 		}
 	}
-        public function formular()
+        
+        public function pokusyUser()
         {
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
                 $this->load->view('templates/headerform', $data);                
-		$this->load->view('pages/formular', $data);  
+		$this->load->view('pages/pokusyUser', $data);  
 		$this->load->view('templates/footer');
-        }
-        
             }
         
+        }
+        public function pokusyAdmin()
+        {
+            if($this->ion_auth->is_admin()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerform', $data);                
+		$this->load->view('pages/pokusyAdmin', $data);  
+		$this->load->view('templates/footer');
+            }
+        
+        }
 }
