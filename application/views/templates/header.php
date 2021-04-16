@@ -49,13 +49,14 @@ li a {
      
    
     </ul>
-      <form action="<?php echo base_url("auth/login"); ?>">
-            <button type="submit">Přihlásit se</button>
-      </form>
-      <form action="<?php echo base_url("auth/create_user"); ?>">
-            <button type="submit">Zaregistrovat se</button>
-      </form>
+      <ul class="navbar-nav" class=" navbar navbar-expand-lg  lighten-1">           
+ <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/login"; ?>'>Přihlásit se</a>  </li>
+ </ul>
+      <ul class="navbar-nav" class=" navbar navbar-expand-lg  lighten-1">           
+ <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/create_user"; ?>'>Zaregistrovat se</a>  </li>
+ </ul>
   </div>
 </nav>
     </body>
 </html>
+

@@ -95,7 +95,7 @@ table, th, td {
                                 <?php foreach ($pokusy as $pok) { ?>
                             <tr>
                                 <td class="text-center">
-                                    <a href="<?php echo base_url('pages/pokusyKlik/'.$pok->id) ?>">
+                                    <a href="<?php echo base_url('auth/pokusyKlik/'.$pok->id) ?>">
                                 <?= $pok->nazev_pokusu; ?>
                                     </a>
                                 </td>

@@ -29,21 +29,11 @@ class Pages extends CI_Controller {
                 $data['polozky'] = $this->pokusy_model->get_menu();
                 $data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
                 $this->load->view('templates/header', $data);                
-		$this->load->view('pages/pokusyAdmin', $data);  
+		$this->load->view('pages/pokusy', $data);  
 		$this->load->view('templates/footer');
         }
                
-        public function pokusyKlik($id)
-        {
-            
-                $this->load->model('pokusy_model');
-                $data['polozky'] = $this->pokusy_model->get_menu();
-                $data['nazev'] = $this->db->query('SELECT * FROM pokusy where id= '.$id)->result();
-                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
-                $this->load->view('templates/header', $data);                
-		$this->load->view('pages/pokusyKlik', $data);  
-		$this->load->view('templates/footer');
-        }
+        
         public function formular()
         {
             

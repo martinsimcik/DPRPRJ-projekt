@@ -66,7 +66,7 @@ class Auth extends CI_Controller
 	{
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/headerlogin', $data);
+                $this->load->view('templates/headerform', $data);
                 
                 $this->data['title'] = $this->lang->line('login_heading');
 
@@ -469,7 +469,7 @@ class Auth extends CI_Controller
 	{
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/headerlogin', $data);
+                $this->load->view('templates/headerform', $data);
             
                 $this->data['title'] = $this->lang->line('create_user_heading');
 
@@ -914,13 +914,60 @@ class Auth extends CI_Controller
         }
         public function pokusyAdmin()
         {
-            if($this->ion_auth->is_admin()){
+            if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/headerform', $data);                
+                $this->load->view('templates/headerlogin', $data);                
 		$this->load->view('pages/pokusyAdmin', $data);  
 		$this->load->view('templates/footer');
             }
         
         }
+        public function homeAuth()
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('pages/homeAuth', $data);  
+		$this->load->view('templates/footer');
+        }
+}
+
+    
+        
+                    public function formular()
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('pages/formular', $data);  
+		
+        }
+            }
+            public function pokusy()
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy')->result();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/pokusy', $data);  
+		$this->load->view('templates/footer');
+        }
+               
+        public function pokusyKlik($id)
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['nazev'] = $this->db->query('SELECT * FROM pokusy where id= '.$id)->result();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
+                $this->load->view('templates/header', $data);                
+		$this->load->view('pages/pokusyKlik', $data);  
+		$this->load->view('templates/footer');
+        }
+       
+        
 }

@@ -37,11 +37,11 @@ li a {
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-   
+   <li class ="nav-item">
+        <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "pages/home"; ?>'>Domů</a>  </li>
+        </li>
     </ul> 
-      <form action="<?php echo base_url("auth/logout"); ?>">
-            <button type="submit">Odhlásit se</button>
-      </form>
+
   </div>
 </nav>
     </body>

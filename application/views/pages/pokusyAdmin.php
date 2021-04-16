@@ -92,7 +92,9 @@ table, th, td {
                         <div class="col-12">
                             <h5><b> Pro zobrazení více informací k pokusu stačí na pokus kliknout </b></h5>
                             <table class="table">
-                                <?php foreach ($pokusy as $pok) { ?>
+                                
+                                <?php 
+                                foreach ($pokusy as $pok) { ?>
                             <tr>
                                 <td class="text-center">
                                     <a href="<?php echo base_url('pages/pokusyKlik/'.$pok->id) ?>">
@@ -139,3 +141,4 @@ table, th, td {
         <div><br>&nbsp</div>
     </body>
 </html>
+
