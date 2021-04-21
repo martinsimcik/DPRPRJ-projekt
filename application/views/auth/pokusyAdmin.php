@@ -1,3 +1,32 @@
+<?php
+    $connect = mysqli_connect("localhost","root","","pokusy");
+    if(isset($_POST['submitinserdetails'])) {
+        
+        
+        $komentar = $_POST['komentar'];
+        $jmeno = $this->session->userdata('email');
+        
+        
+        
+    if(!empty($komentar) && !empty($jmeno) )   {
+    
+        
+        $sql = "INSERT INTO `komentare`(`komentar`, `jmeno`)"
+                               . " VALUES ('$komentar','$jmeno')" ;
+    $qry = mysqli_query($connect, $sql);
+    if($qry){
+        echo "Pokus byl úspěšně přidán";
+    }   
+        
+    } else {
+        echo "Všechny kolonky musí být vyplněné";
+    }
+        header("location: homeAuth");
+exit;
+    
+    
+    }
+?>
 <html>
     <head>
         <title>Pokusy</title>
@@ -22,10 +51,38 @@
 table, th, td {
   border: 2px solid black;
 }   
+
+.spodek-1
+{
+    position: absolute;
+    
+    right: 3%
+}
+.spodek-2
+{
+    position: absolute;
+    
+    right: 8%
+}
+textarea {
+  resize: none;
+}
+
+.bila {
+    color:white;
+}
+.spodek
+{
+    position: absolute;
+    bottom:0%;
+    right: 3%
+}
     </style>
     <script type="text/javascript">
 
     </script>
+       <?php $pokusy = $this->db->query('SELECT * from pokusy')->result();?>
+       <?php $komentare = $this->db->query('SELECT * from komentare')->result();?>
     </head>
     <body>
         <h2 class="text-center"><b><u>Seznam pokusů</u></b></h2>
@@ -87,24 +144,45 @@ table, th, td {
                 </div>
                 </center>
             ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                <center>
+             <?php
+
+include "dbConn.php"; // Using database connection file here
+
+$records = mysqli_query($db,"select * from pokusy"); // fetch data from database
+$data = mysqli_fetch_array($records);
+?>   
+            <center>
                     <div class="row">
                         <div class="col-12">
                             <h5><b> Pro zobrazení více informací k pokusu stačí na pokus kliknout </b></h5>
                             <table class="table">
                                 
-                                <?php 
-                                foreach ($pokusy as $pok) { ?>
+                                <?php foreach ($pokusy as $pok) { ?>
+
+
                             <tr>
                                 <td class="text-center">
-                                    <a href="<?php echo base_url('pages/pokusyKlik/'.$pok->id) ?>">
-                                <?= $pok->nazev_pokusu; ?>
+                                    <a href="<?php echo base_url('auth/pokusyKlikA/'.$pok->id) ?>">
+                                <?php echo $pok->nazev_pokusu; ?>
+                                        <a class="spodek-1" href="<?php echo base_url('auth/delete/'.$pok->id) ?>">Smazat</a>
+                                    <a class="spodek-2" href="<?php echo base_url('auth/uprava/'.$pok->id) ?>">Upravit</a>  
+                                   
                                     </a>
+                                       
+                                                          
                                 </td>
+                                                            
                             </tr>
-                                <?php } ?>
+                             
+                            <?php } ?>
+
                             </table>
+                            
                         </div>
+                        
+                           
+                            
+                           
                     </div>
                 </center>
             ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -114,9 +192,7 @@ table, th, td {
                         <button type="button" class="btn btn-default">
                         <a class="nav-link text-dark" href="formular">Přidat pokus</a> 
                         </button>
-                        <button type="button" class="btn btn-default">
-                            <a class="nav-link text-dark" href="odebraniPokusu">Odebrat pokus</a> 
-                        </button>
+                        
                     </div>
                 </div>
             </center>
@@ -125,15 +201,43 @@ table, th, td {
                         <h3><b> Komentáře k pokusům: </b></h3> 
                         <div class="form-group">
                             <label for="comment">Chtěli byste říct ostatním co si myslíte? Můžete.</label>
-                            <div><br>&nbsp</div>
-                            <b>(zde bude přidávání komentářů do databáze -> řádek pro jméno a větší pole pro text)</b> <br>
-                            <div><br>&nbsp</div>
-                            <button class="btn btn-default text-dark" type="submit">Přidat komentář</button>
-                            <button type="button" class="btn btn-default">
-                            <a class="nav-link text-dark" href="odebraniKomentare">Odebrat komentář</a> 
-                            </button>
-                            <div><br>&nbsp</div>
-                            <b>(zde bude výpis komentářu z databáze -> jméno a komentář)</b>
+                            
+                            
+                            <form action="" method="POST">
+                                
+                                
+                                <textarea name="komentar" rows="4" cols="50" maxlength = "200">
+  
+                                </textarea>
+                            <div><br></div>
+                            <input class="btn btn-default text-dark" type="submit" name="submitinserdetails" value="Přidat komentář">
+                            </form>
+                             <?php
+
+include "dbConn.php"; // Using database connection file here
+
+$zaznamy = mysqli_query($db,"select * from komentare"); // fetch data from database
+
+?>
+                            <div class="row">
+        <?php while($data = mysqli_fetch_array($zaznamy))
+{
+?>
+        
+     <div class="col">   
+    <div class="card" style="width: 18rem; height: 10rem;">
+            <h4><?php echo $data['jmeno']; ?></h4>
+                <p><?php echo $data['komentar']; ?></p>
+                <a class="spodek" href="smazat/<?php echo $data['id']; ?>">Smazat</a>
+                
+                
+    </div>
+         <p>&nbsp</p>
+     </div>
+    <p>&nbsp</p>
+        <?php } ?>
+        
+  </div>
                         </div>
                     </div>
                 </div>

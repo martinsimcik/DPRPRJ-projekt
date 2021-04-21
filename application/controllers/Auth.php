@@ -918,7 +918,9 @@ class Auth extends CI_Controller
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
                 $this->load->view('templates/headerlogin', $data);                
-		$this->load->view('pages/pokusyAdmin', $data);  
+		$this->load->view('auth/pokusyAdmin', $data);  
+                $email = $this->session->userdata('email');
+                $data['users'] = $this->db->query('SELECT email FROM users')->result();
 		$this->load->view('templates/footer');
             }
         
@@ -969,5 +971,66 @@ class Auth extends CI_Controller
 		$this->load->view('templates/footer');
         }
        
+        public function pokusyKlikA($id)
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['nazev'] = $this->db->query('SELECT * FROM pokusy where id= '.$id)->result();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
+                $pokusy = $this->db->query('SELECT * from pokusy where id=  '.$id)->result();
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('pages/pokusyKlik', $data);  
+		$this->load->view('templates/footer');
+        }
+        public function delete($id)
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);                
+                $this->db->query("DELETE FROM `pokusy` WHERE `id` = $id");
+                $this->load->view('pages/homeAuth', $data); 
+            }
+
+        }
+        public function smazat($id)
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);                
+                $this->db->query("DELETE FROM `komentare` WHERE `id` = $id");
+                $this->load->view('pages/homeAuth', $data); 
+            }
+
+        }
+        public function update($id)
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $e = $this->input->post('nazev_pokusu');
+                $p = $this->input->post('pomucky');
+                $m = $this->input->post('postup');
+                $i = $this->input->post('popis_pokusu');
+                $k = $this->input->post('kategorie');
+                $this->load->view('templates/headerlogin', $data);  
+                $this->load->view('pages/update', $data); 
+                $this->db->query("UPDATE pokusy SET nazev_pokusu='$e', pomucky='$p', postup='$m', popis_pokusu='$i', kategorie='$k' WHERE id='$id'");
+                
+            }
+            
+        }
+        
+public function uprava($id)
+{
+    
+                    $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                    $this->load->view('templates/headerlogin', $data);                
+
+$this->load->view('pages/update', $id);     
+}
         
 }

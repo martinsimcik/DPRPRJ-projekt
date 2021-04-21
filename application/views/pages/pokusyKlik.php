@@ -27,7 +27,7 @@ table, th, td {
         <?php foreach ($pokusy as $pok) { ?>
             <tr>
                 <th>Název pokusu:</th>
-                <td><?= $pok->nazev_pokusu; ?></td>
+                <td><?= $pok->nazev_pokusu; ?></td> 
             </tr>
             <tr>
                 <th>Pomůcky:</th>
