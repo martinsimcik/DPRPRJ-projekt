@@ -28,6 +28,9 @@ Cílem našeho projektu je dokončit webou stránku, která je zaměřena na pok
 ## Persony - 2. pololetí
 [Persony](https://github.com/martinsimcik/Demo-applet-na-pokusy/blob/main/doc/Persony_2._pololet%C3%AD.md)
 
+## Dokumentace - 2. pololetí
+[Dokumentace](https://github.com/martinsimcik/Demo-applet-na-pokusy/tree/main/doc/dokumentace)
+
 ## Přihlášení pro admina
 Email/uživatelské jméno: admin@admin.com
 
