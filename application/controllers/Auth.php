@@ -906,8 +906,8 @@ class Auth extends CI_Controller
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/headerform', $data);                
-		$this->load->view('pages/pokusyUser', $data);  
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('auth/pokusyUser', $data);  
 		$this->load->view('templates/footer');
             }
         
@@ -948,6 +948,17 @@ class Auth extends CI_Controller
 		
         }
             }
+            
+            public function formularU()
+        {
+            if($this->ion_auth->logged_in()){
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('pages/formularU', $data);  
+		
+        }
+            }
             public function pokusy()
         {
             
@@ -983,6 +994,20 @@ class Auth extends CI_Controller
 		$this->load->view('pages/pokusyKlik', $data);  
 		$this->load->view('templates/footer');
         }
+        
+        public function pokusyKlikU($id)
+        {
+            
+                $this->load->model('pokusy_model');
+                $data['polozky'] = $this->pokusy_model->get_menu();
+                $data['nazev'] = $this->db->query('SELECT * FROM pokusy where id= '.$id)->result();
+                $data['pokusy'] = $this->db->query('SELECT * FROM pokusy where id=  '.$id)->result();
+                $pokusy = $this->db->query('SELECT * from pokusy where id=  '.$id)->result();
+                $this->load->view('templates/headerlogin', $data);                
+		$this->load->view('pages/pokusyKlik', $data);  
+		$this->load->view('templates/footer');
+        }
+        
         public function delete($id)
         {
             if($this->ion_auth->logged_in()){

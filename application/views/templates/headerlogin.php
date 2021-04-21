@@ -44,6 +44,11 @@ li a {
         <li class ="nav-item">
         <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/pokusyAdmin"; ?>'>Pokusy</a>  </li>
         </li>
+        
+        <li class ="nav-item">
+        <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/pokusyUser"; ?>'>pokusyUser</a>  </li>
+        </li>
+        
     </ul>
         <ul class="navbar-nav" class=" navbar navbar-expand-lg  lighten-1">           
  <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/logout"; ?>'>Odhlásit se</a>  </li>
