@@ -82,10 +82,15 @@ class Auth extends CI_Controller
 
 			if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember))
 			{
-				//if the login is successful
-				//redirect them back to the home page
-				$this->session->set_flashdata('message', $this->ion_auth->messages());
+				if($this->ion_auth->is_admin())
+				{
+                	$this->session->set_flashdata('message', $this->ion_auth->messages());
 				redirect('auth/pokusyAdmin', 'refresh');
+				}
+               else{
+				$this->session->set_flashdata('message', $this->ion_auth->messages());
+				redirect('auth/pokusyUser', 'refresh');
+			   }
 			}
 			else
 			{
@@ -906,8 +911,8 @@ class Auth extends CI_Controller
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
-                $this->load->view('templates/headerlogin', $data);                
-		$this->load->view('auth/pokusyUser', $data);  
+                $this->load->view('templates/headerlogin', $data); 
+				$this->load->view('auth/pokusyUser', $data);                 
 		$this->load->view('templates/footer');
             }
         

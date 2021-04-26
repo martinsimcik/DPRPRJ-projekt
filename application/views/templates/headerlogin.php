@@ -42,19 +42,24 @@ li a {
         <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/homeAuth"; ?>'>Domů</a>  </li>
         </li>
         <li class ="nav-item">
-        <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/pokusyAdmin"; ?>'>Pokusy</a>  </li>
+        <li class="nav-item"> <a class="nav-link"<a href='<?php 
+        if($this->ion_auth->is_admin()){   echo base_url() . "auth/pokusyAdmin"; }  else{ echo base_url() . "auth/pokusyUser"; }?>'>Pokusy</a></li>
         </li>
+        
         
         
         
     </ul>
       <?php 
             echo $email = $this->session->userdata('email');
+            
             ?>
         <ul class="navbar-nav" class=" navbar navbar-expand-lg  lighten-1">
             
  <li class="nav-item"> <a class="nav-link"<a href='<?php echo base_url() . "auth/logout"; ?>'>Odhlásit se</a>  </li>
  </ul>
+
+				
      
      
     </ul>
