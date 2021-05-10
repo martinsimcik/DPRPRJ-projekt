@@ -28,7 +28,7 @@
     </head>
     <body>
         
-        <h2 class="text-center"><b><u>Zábavné pokusy kolem nás</u></b></h2>
+        <h2 class="text-center"><b>Zábavné pokusy kolem nás</b></h2>
         <center>
             <div class="row">
                 <div class="col-2">

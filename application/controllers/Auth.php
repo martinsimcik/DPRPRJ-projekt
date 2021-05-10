@@ -581,7 +581,7 @@ class Auth extends CI_Controller
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'create_user', $this->data);
 		}
-                $this->load->view('templates/footer', $data);
+                
 	}
 	/**
 	* Redirect a user checking if is admin
@@ -911,6 +911,8 @@ class Auth extends CI_Controller
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
+                $email = $this->session->userdata('email');
+                $data['users'] = $this->db->query('SELECT first_name FROM users where email=  "' . $email . '"')->result();
                 $this->load->view('templates/headerlogin', $data); 
 				$this->load->view('auth/pokusyUser', $data);                 
 		$this->load->view('templates/footer');
@@ -922,10 +924,10 @@ class Auth extends CI_Controller
             if($this->ion_auth->logged_in()){
                 $this->load->model('pokusy_model');
                 $data['polozky'] = $this->pokusy_model->get_menu();
+                $email = $this->session->userdata('email');
+                $data['users'] = $this->db->query('SELECT first_name FROM users where email=  "' . $email . '"')->result();
                 $this->load->view('templates/headerlogin', $data);                
 		$this->load->view('auth/pokusyAdmin', $data);  
-                $email = $this->session->userdata('email');
-                $data['users'] = $this->db->query('SELECT email FROM users')->result();
 		$this->load->view('templates/footer');
             }
         
