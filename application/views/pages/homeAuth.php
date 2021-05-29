@@ -42,21 +42,21 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-       <img src="<?php echo base_url('images/pokus1.jpg'); ?>" width="730" height="400" alt=""/>
+       <img src="<?php echo base_url('images/vznasedlo.jpg'); ?>" width="730" height="400" alt=""/>
       <div class="carousel-caption">
-        <h3>nejaky_nazev</h3>
+        <h3>Vznášedlo</h3>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="<?php echo base_url('images/pokus2.jpg'); ?>" width="730" height="400" alt=""/>
+      <img src="<?php echo base_url('images/hotice.jpg'); ?>" width="730" height="400" alt=""/>
       <div class="carousel-caption">
-        <h3>nejaky_nazev</h3>
+        <h3>Horký led</h3>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="<?php echo base_url('images/pokus3.jpg'); ?>" width="730" height="400" alt=""/>
+      <img src="<?php echo base_url('images/kompas.jpg'); ?>" width="730" height="400" alt=""/>
       <div class="carousel-caption">
-        <h3>nejaky_nazev</h3>
+        <h3>Tvorba kompasu</h3>
       </div>   
     </div>
   </div>
@@ -79,24 +79,13 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <div class="card-body"><div class="text-center"><h2> O nás </h2></div><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                            Phasellus faucibus molestie nisl. Cum sociis natoque penatibus et magnis dis parturient montes, 
-                            nascetur ridiculus mus. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.
-                            Integer tempor. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Vivamus ac 
-                            leo pretium faucibus. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Fusce 
-                            tellus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim 
-                            ipsum id lacus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede.</div>
+                        <div class="card-body"><div class="text-center"><h2> O nás </h2></div><br>Jsme oblíbenci pokusů a z toho důvodu vznikl tento projekt. Chceme aby stránka sloužila pro lidi s podobnou oblibou v pokusech. Snažíme se zde vytvořit příjemné prostředí pro naše návštěvníky.</div>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card">
-                        <div class="card-body"><div class="text-center"><h2> K čemu pokusy slouží </h2></div><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                            Phasellus faucibus molestie nisl. Cum sociis natoque penatibus et magnis dis parturient montes, 
-                            nascetur ridiculus mus. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.
-                            Integer tempor. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Vivamus ac 
-                            leo pretium faucibus. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Fusce 
-                            tellus. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim 
-                            ipsum id lacus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede.</div>
+                        <div class="card-body"><div class="text-center"><h2> K čemu pokusy slouží </h2></div><br>Pokusy slouží k mnoha účelům, jak ke studijním, volnočasovým či profesním.
+                        Například pro školáky, kteří si mají vyzkoušet pokus doma.  Pro zájemce o vědu, co rádi zkusí něco nového či lidi sběhlé v daném oboru, kteří si potřebují něco připomenout.</div>
                     </div>
                 </div>
                 <div class="col-2">
